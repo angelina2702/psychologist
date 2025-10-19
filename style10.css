@@ -1,0 +1,109 @@
+.SignUp{
+    width: 100%;
+    height: 50vh;
+    box-shadow: 0 0 10px rgb(172, 133, 61);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   align-items: center;
+    gap: 20px;
+   
+}
+.button{
+    display: block; 
+    width: 200px; 
+    height: 40px; 
+    background-color: #5322dab2; 
+    color: black; 
+    font-size: 18px; 
+    font-family: "Trebuchet MS"; 
+    text-align: center; 
+    line-height: 40px; 
+    position: relative;
+}
+.button::after { 
+    content: ""; 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 20px; 
+    height: 100%; 
+    background-color: rgba(0, 0, 0, 0.2); 
+    transition: all 0.2s; 
+   } 
+   .button:hover::after { 
+    width: 100%; 
+   } 
+   .button span { 
+    z-index: 2; 
+    position: relative; 
+   } 
+   .button:hover span { 
+    color: rgb(139, 139, 139); 
+   } 
+.submit{
+    padding-block: 3%;
+    padding-inline: 10%;
+}
+   .submit1{
+    padding-left: 30%;
+    padding-inline: 10%;
+    background-color: #3c17a18c;
+   }
+   @media(max-width:1289px){
+    body{
+    width: 100%;
+ }
+ .SignUp{
+    width: 70rem;
+    height: 20rem;
+    box-shadow: 0 0 10px rgb(172, 133, 61);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.button{
+    display: block; 
+    width: 200px; 
+    height: 40px; 
+    background-color: #5322dab2; 
+    color: black; 
+    font-size: 18px; 
+    font-family: "Trebuchet MS"; 
+    text-align: center; 
+    line-height: 40px; 
+    position: relative;
+}
+.button::after { 
+    content: ""; 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 20px; 
+    height: 100%; 
+    background-color: rgba(0, 0, 0, 0.2); 
+    transition: all 0.2s; 
+   } 
+   .button:hover::after { 
+    width: 100%; 
+   } 
+   .button span { 
+    z-index: 2; 
+    position: relative; 
+   } 
+   .button:hover span { 
+    color: rgb(139, 139, 139); 
+   } 
+.submit{
+    padding-block: 3%;
+    padding-inline: 10%;
+}
+   .submit1{
+    padding-left: 30%;
+    padding-inline: 10%;
+    background-color: #3c17a18c;
+   }
+}

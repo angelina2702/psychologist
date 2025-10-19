@@ -1,0 +1,165 @@
+* { 
+    margin: 0; 
+    padding: 0; 
+   } 
+   .head { 
+    width: 100%; 
+    height: 20vh; 
+    display: flex; 
+    justify-content: center; 
+   } 
+   .logo { 
+    height: 100%; 
+   } 
+   .name { 
+    width: 100%; 
+    height: 10vh; 
+    font-size: 50px; 
+    color: #5222DA; 
+    font-weight: 900; 
+    display: flex; 
+    justify-content: center; 
+    background-color: #aa9ad780;
+   } 
+   .AbaotIlona { 
+    width: 100%; 
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   } 
+   .img1 { 
+    width: 30%; 
+    height: auto; 
+    padding-right: 10%;
+    display: flex;
+    justify-self: start; 
+    align-items: start;
+   } 
+   .img2 { 
+    width: 117%; 
+  
+   } 
+   .name1 { 
+    width: 100%; 
+    font-size: 30px; 
+    font-weight: 800; 
+    padding-left: 10%; 
+   } 
+   .name2 { 
+    font-size: 25px;  
+    padding-left: 10%; 
+   } 
+   .abaut { 
+    width: 100%; 
+    height: 10vh; 
+    display: grid; 
+    font-weight: 900; 
+    font-size: 30px; 
+    background-color: #dccfff; 
+    grid-template-rows: 30%; 
+    grid-template-columns: 1fr 1fr 1fr; 
+   } 
+   .obrathovanie { 
+    width: 100%; 
+    height: 73vh; 
+    display: grid; 
+    background-color: #dccfff; 
+    grid-template-rows: 30%; 
+    grid-template-columns: 1fr 1fr 1fr; 
+   }
+   .text{
+    font-size: 20px;
+   }
+   .text2{
+    display: flex;
+     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   }
+   @media(max-width:1261px){
+    body{
+    width: 100%;
+ }
+ * { 
+    margin: 0; 
+    padding: 0; 
+   } 
+   .head { 
+    width: 100%; 
+    height: 20vh; 
+    display: flex; 
+    justify-content: center; 
+   } 
+   .logo { 
+    height: 100%; 
+   } 
+   .name { 
+    width: 100%; 
+    height: 4rem; 
+    font-size: 1rem; 
+    color: #5222DA; 
+    font-weight: 900; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    background-color: #aa9ad780;
+   } 
+   .AbaotIlona { 
+    width: 100%; 
+    height: 35vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   } 
+   .img1 { 
+    width: 30%; 
+    height: auto; 
+    padding-right: 10%;
+    display: flex;
+    justify-self: start; 
+    align-items: start;
+   } 
+   .img2 { 
+    width: 10rem; 
+   } 
+   .name1 { 
+    width: 100%; 
+    font-size: 20px; 
+    font-weight: 800; 
+    padding-left: 39%; 
+   } 
+   .name2 { 
+    font-size: 15px;  
+    padding-left: 10%; 
+   } 
+   .abaut { 
+    width: 100%; 
+    height: 10vh; 
+    font-weight: 900; 
+    font-size: 15px; 
+    background-color: #dccfff; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 55px;
+   } 
+   .obrathovanie { 
+    width: 100%; 
+    height: 71vh; 
+    display: grid; 
+    background-color: #dccfff; 
+    grid-template-rows: 30%; 
+    grid-template-columns: 1fr 2fr 1fr; 
+   }
+   .text{
+    font-size: 10px;
+   }
+   .text2{
+    display: flex;
+     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   }
+}

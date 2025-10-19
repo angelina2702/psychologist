@@ -1,0 +1,941 @@
+* { 
+   margin: 0; 
+   padding: 0; 
+  } 
+  .head { 
+   width: 100%; 
+   height: 7rem; 
+   display: flex; 
+   justify-content: center; 
+  } 
+  .logo { 
+   height: 100%; 
+  } 
+  .name { 
+   width: 100%; 
+   height: 7rem; 
+   font-size: 3rem; 
+   color: #5222DA; 
+   font-weight: 900; 
+   display: flex; 
+   justify-content: center; 
+   align-items: center;
+   background-color: #aa9ad780;
+  } 
+  .adres { 
+   width: 100%; 
+   height: 4rem; 
+   display: grid; 
+   grid-template-rows: 50%; 
+   grid-template-columns: 1fr 10fr 1fr 10fr; 
+  } 
+  .telefon { 
+   width: 100%; 
+  } 
+  .time { 
+   width: 100%; 
+   height: 5rem; 
+   font-size: 2rem; 
+   font-weight: 900; 
+   display: flex; 
+   justify-content: center; 
+   background-color: #AA9AD7;
+  } 
+  .infa { 
+   width: 100%; 
+   height: 4rem; 
+   display: flex; 
+   flex-direction: row;
+   align-content: center;
+   justify-content: center; 
+   background-color: #F2EFF8;
+  } 
+  .infa100{
+   font-size: 1.5rem; 
+   font-weight: 900; 
+  }
+  .infa1 { 
+   width: 100%; 
+   height: 5rem; 
+   font-size: 30px; 
+   font-weight: 900; 
+   display: flex; 
+   justify-content: center; 
+   align-items: center;
+   background-color: #b195c4a9;
+  } 
+  .infa2 { 
+   width: 100%; 
+   height: 5rem; 
+   font-size: 2rem; 
+   font-weight: 900; 
+   display: flex; 
+   justify-content: center; 
+   align-items: center;
+   background-color: #aa9ad779;
+  } 
+  .infa3{
+  width: 100%;
+  height: 160rem;
+  background-color: #DCCFFF ;
+  }
+  .infa4 { 
+     width: 100%; 
+     height: 5rem; 
+     font-size: 2rem; 
+     font-weight: 900; 
+     display: flex; 
+     justify-content: center; 
+     background-color: #F2EFF8;
+    } 
+    .infa200{
+      width: 100%;
+      height: 6rem;
+      background-color: #AA9AD7;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .infa300{
+      width: 100%;
+      height: 1rem;
+      background-color: #AA9AD7;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 2px;
+    }
+    .infa35{
+font-size: 1.5rem;
+font-weight: 900;
+color: #4400ff;
+    }
+  .abautUs { 
+   width: 100%; 
+   height: 55rem; 
+   background-color: #F3F1F9; 
+  } 
+  .abaut { 
+   width: 100%; 
+   height: 3rem; 
+   font-size: 40px; 
+   font-weight: 900; 
+   display: flex; 
+   justify-content: center; 
+  } 
+  .psiholog { 
+   width: 100%; 
+   height: 4rem; 
+   font-size: 900; 
+   display: grid; 
+   grid-template-rows: 50%; 
+   grid-template-columns: 1fr 10fr; 
+  } 
+  .oput { 
+   font-size: 2rem; 
+  } 
+  .student { 
+   width: 50%; 
+  } 
+  .p7 { 
+   font-size: 400px; 
+   font-weight: 900; 
+  } 
+  .psihologInfa {
+   font-size: 2rem; 
+  } 
+  .psihologInfa2 { 
+     width: 100%; 
+     height: 17rem; 
+     font-size: 2rem; 
+    } 
+    .psihologInfa3 { 
+     width: 100%; 
+     height: 12rem; 
+     font-size: 2rem; 
+    } 
+  .kindness { 
+   width: 100%; 
+   height: 5rem; 
+   font-size: 900; 
+   display: grid; 
+   grid-template-rows: 50%; 
+   grid-template-columns: 1fr 10fr; 
+  } 
+  .us { 
+   width: 100%; 
+   height: 4rem; 
+   font-size: 900; 
+   display: grid; 
+   grid-template-rows: 50%; 
+   grid-template-columns: 1fr 10fr; 
+  } 
+.gallery {
+   display: flex;
+   align-items: center; /* Центрируем кнопки и изображения по вертикали */
+}
+.images-container {
+   display: flex; /* Для отображения изображений в ряд */
+}
+.gallery-image {
+   width: 424px; /* Ширина изображений */
+   height: auto;
+   opacity: 1; /* Начальная непрозрачность */
+   transition: opacity 1s ease-in-out; /* Плавный переход для смены изображений */
+}
+button {
+   background-color: #AA9AD7;
+   color: white;
+   border: none;
+   padding: 10px;
+   cursor: pointer;
+   font-size: 18px;
+   border-radius: 5px;
+}
+button:hover {
+   background-color: #AA9AD7; /* Цвет кнопки при наведении */
+} 
+.helps { 
+   width: 100%; 
+   height: 46rem; 
+   background-color: #F2EFF8; 
+  } 
+  .ourSpecialists { 
+   width: 100%; 
+   height: 5rem; 
+   font-size: 50px; 
+   font-weight: 900; 
+   display: flex; 
+   justify-content: center; 
+   align-items: center;
+   background-color: #AA9AD7;
+  } 
+  .ourSpecialists1 { 
+   width: 100%; 
+   height: 14rem; 
+   font-size: 30px; 
+   background-color: #DCCFFF;
+   display: grid; 
+   grid-template-rows: 50% 50%; 
+   grid-template-columns: 1fr 1fr 1fr 1fr; 
+  } 
+  .Sveta { 
+   width: 70%; 
+  } 
+  .ourSpecialists2 { 
+   width: 100%; 
+   height: 7rem; 
+   font-size: 30px; 
+   font-weight: 900; 
+   display: grid; 
+   grid-template-rows: 50% 50%; 
+   grid-template-columns: 1fr 1fr 1fr 1fr; 
+  } 
+  .ourSpecialists3 { 
+   width: 100%; 
+   height: 16rem; 
+   font-size: 30px; 
+   display: grid; 
+   grid-template-rows: 50% 50%; 
+   grid-template-columns: 1fr 1fr 1fr 1fr; 
+  } 
+  .ourSpecialists4 { 
+   width: 100%; 
+   height: 12rem; 
+   font-size: 30px; 
+   display: grid; 
+   grid-template-rows: 50% 50%; 
+   grid-template-columns: 1fr 1fr 1fr 1fr; 
+  } 
+  .ourSpecialists5{
+   width: 100%; 
+   height: 3rem; 
+   font-size: 30px; 
+   display: grid; 
+   grid-template-rows: 50% 50%; 
+   grid-template-columns: 1fr 1fr 1fr 1fr; 
+  }
+  a{
+     text-decoration: none;
+  }
+  .button { 
+   display: block; 
+   width: 200px; 
+   height: 40px; 
+   background-color: #5322dab2; 
+   color: black; 
+   font-size: 18px; 
+   font-family: "Trebuchet MS"; 
+   text-align: center; 
+   line-height: 40px; 
+   position: relative; 
+  } 
+  .button::after { 
+   content: ""; 
+   position: absolute; 
+   top: 0; 
+   left: 0; 
+   width: 20px; 
+   height: 100%; 
+   background-color: rgba(0, 0, 0, 0.2); 
+   transition: all 0.2s; 
+  } 
+  .button:hover::after { 
+   width: 100%; 
+  } 
+  .button span { 
+   z-index: 2; 
+   position: relative; 
+  } 
+  .button:hover span { 
+   color: rgb(139, 139, 139); 
+  } 
+  .name2 { 
+   width: 100%; 
+   height: 5rem; 
+   font-size: 25px; 
+   font-weight: 600; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+   background-color: #8f70df94;
+  } 
+  .button1 { 
+   width: 300px; 
+   height: 40px; 
+   background-color: #5322dab2 ; 
+   color: black; 
+   font-size: 18px;
+   text-align: center; 
+   display: flex; 
+   justify-content: center;
+   line-height: 40px; 
+   position: relative; 
+   margin-left: 100px;
+   font-family: "Trebuchet MS"; 
+  } 
+  .button1::after { 
+   content: ""; 
+   position: absolute; 
+   top: 0; 
+   left: 0; 
+   width: 20px; 
+   height: 100%; 
+   background-color: rgba(0, 0, 0, 0.2); 
+   transition: all 0.2s; 
+  } 
+  .button1:hover::after { 
+   width: 100%; 
+  } 
+  .button1 span { 
+   z-index: 2; 
+   position: relative; 
+  } 
+  .button1:hover span { 
+   color: rgb(139, 139, 139); 
+  } 
+  .name3 { 
+   width: 100%; 
+   height: 5rem; 
+   display: grid; 
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   grid-template-rows: 40%;
+   font-size: 40px; 
+   font-weight: 600; 
+   background-color: #8f70df94;
+  } 
+  .picture{ 
+   width: 15%; 
+  } 
+  .money { 
+   width: 100%; 
+   height: 5rem; 
+   font-size: 3rem; 
+   font-weight: 900; 
+   display: flex; 
+   justify-content: center; 
+   align-items: center;
+   background-color: #F3F2F7;
+  } 
+  .money1 { 
+   width: 100%; 
+   height: 3rem; 
+   font-size: 2rem; 
+   font-weight: 900; 
+  } 
+  .money2 { 
+   width: 100%;  
+   font-size: 25px; 
+  } 
+.money9{ 
+   width: 100%; 
+   height: 20rem; 
+   background-color: #F3F2F7; 
+   overflow-y: scroll; 
+  }
+  .money10{
+   width: 100%; 
+   height: 4rem; 
+   font-size: 2rem; 
+   font-weight: 900; 
+   display: flex; 
+   justify-content: center; 
+   align-items: center;
+   background-color: #9476E8;
+  }
+  .money11{
+   width: 100%; 
+   height: 4rem; 
+   font-size: 2rem; 
+   font-weight: 900; 
+   display: flex; 
+   justify-content: center; 
+   align-items: center;
+   background-color: #BEB1E0;
+  }
+  .geolocacia { 
+   width: 100%; 
+   height: 30rem; 
+   display: grid; 
+   grid-template-rows: 20%; 
+   grid-template-columns: 3fr 1fr ; 
+   gap: 2rem;
+  } 
+  .video1 { 
+   height: 30rem; 
+  } 
+  .information { 
+   width: 100%; 
+   height: 7rem; 
+   font-size: 2rem; 
+   display: flex; 
+   justify-content: center;
+   flex-direction: column; 
+   align-items: center;
+   background-color: #dccfff83;
+  } 
+  .dogovor { 
+   width: 100%; 
+   height: 4rem; 
+   font-size: 2rem; 
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   background-color: #D2CAEA;
+   gap: 10px;
+  } 
+  .adres1 { 
+   width: 100%; 
+   height: 7rem; 
+   font-size: 2rem; 
+   display: flex; 
+   justify-content: center;
+   flex-direction: column; 
+   align-items: center;
+   background-color: #D2CAEA;
+   color: #3B17A1;
+  } 
+  .othava { 
+   width: 100%; 
+   height: 5rem;
+   display: flex;
+   justify-content: center; 
+   background-color: #FFF6F6;
+   font-size: 2rem;
+  } 
+  .salka { 
+   width: 100%; 
+   height: 5rem; 
+   display: flex; 
+   justify-content: end; 
+   gap: 2rem ; 
+   background-color: #F2EFF8;
+  } 
+  .img { 
+   width: 100%; 
+   height: 4rem; 
+  }
+  .img100 {  
+   height: 3rem;
+ }
+@media(max-width:1289px){
+   body{
+   width: 100%;
+}
+ * { 
+    margin: 0; 
+    padding: 0; 
+   } 
+   .head { 
+    width: 100%; 
+    height: 7rem; 
+    display: flex; 
+    justify-content: center; 
+   } 
+   .logo { 
+    height: 100%; 
+   } 
+   .name { 
+    width: 100%; 
+    height: 4rem; 
+    font-size: 1rem; 
+    color: #5222DA; 
+    font-weight: 900; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    background-color: #aa9ad780;
+   } 
+   .adres { 
+    width: 100%; 
+    height: 5rem; 
+    display: grid; 
+    grid-template-rows: 50%; 
+    grid-template-columns: 1fr 10fr 1fr 10fr; 
+   } 
+   .telefon { 
+    width: 100%; 
+   } 
+   .time { 
+    width: 100%; 
+    height: 2rem; 
+    font-size: 1rem; 
+    font-weight: 900; 
+    display: flex; 
+    justify-content: center; 
+    background-color: #AA9AD7;
+   } 
+   .infa { 
+    width: 100%; 
+    height: 4rem; 
+    display: flex; 
+    flex-direction: row;
+    align-content: center;
+    justify-content: center; 
+    background-color: #F2EFF8;
+   } 
+   .infa100{
+    font-size: 1rem; 
+    font-weight: 900; 
+   }
+   .infa1 { 
+    width: 100%; 
+    height: 5rem; 
+    font-size: 1rem; 
+    font-weight: 900; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    background-color: #b195c4a9;
+   } 
+   .infa2 { 
+    width: 100%; 
+    height: 4rem; 
+    font-size: 1rem; 
+    font-weight: 900; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    background-color: #aa9ad779;
+   } 
+   .infa3{
+   width: 100%;
+   height: 68rem;
+   background-color: #DCCFFF ;
+   }
+   .infa4 { 
+      width: 100%; 
+      height: 9rem; 
+      font-size: 27px; 
+      font-weight: 900; 
+      display: flex; 
+      justify-content: center; 
+      background-color: #F2EFF8;
+     } 
+     .infa200{
+      width: 100%;
+      height: 8rem;
+      background-color: #AA9AD7;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .infa300{
+      width: 100%;
+      height: 4rem;
+      background-color: #AA9AD7;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+   gap: 3px; 
+   }
+    .infa35{
+font-size: 15px;
+font-weight: 900;
+color: #4400ff;
+    }
+    .infa36{
+      font-size: 10px;
+      font-weight: 900;
+    }
+    .infa136{
+      font-size: 11px;
+      font-weight: 900;
+    }
+   .abautUs { 
+    width: 100%; 
+    height: 99rem; 
+    background-color: #F3F1F9; 
+   } 
+   .abaut { 
+    width: 100%; 
+    height: 3rem; 
+    font-size: 40px; 
+    font-weight: 900; 
+    display: flex; 
+    justify-content: center; 
+   } 
+   .psiholog { 
+    width: 100%; 
+    height: 6rem; 
+    font-size: 900; 
+    display: grid; 
+    grid-template-rows: 50%; 
+    grid-template-columns: 1fr 10fr; 
+   } 
+   .oput { 
+    font-size: 2rem; 
+   }
+   .p7 { 
+    font-size: 40px; 
+    font-weight: 900; 
+   } 
+   .psihologInfa {
+    font-size: 25px; 
+   } 
+   .psihologInfa2 { 
+      width: 100%; 
+      height: 26rem; 
+      font-size: 25px; 
+     } 
+     .psihologInfa3 { 
+      width: 100%; 
+      height: 12rem; 
+      font-size: 25px; 
+     } 
+   .kindness { 
+    width: 100%; 
+    height: 8rem; 
+    font-size: 900; 
+    display: grid; 
+    grid-template-rows: 50%; 
+    grid-template-columns: 1fr 10fr; 
+   } 
+   .student{
+      width: 7rem;
+   }
+   .us { 
+    width: 100%; 
+    height: 8rem; 
+    font-size: 900; 
+    display: grid; 
+    grid-template-rows: 50%; 
+    grid-template-columns: 1fr 10fr; 
+   } 
+   .gallery {
+      display: flex;
+      align-items: center; /* Центрируем кнопки и изображения по вертикали */
+   }
+   .images-container {
+      display: flex; /* Для отображения изображений в ряд */
+   }
+   .gallery-image {
+      width: 104px; /* Ширина изображений */
+      height: auto;
+      opacity: 1; /* Начальная непрозрачность */
+      transition: opacity 1s ease-in-out; /* Плавный переход для смены изображений */
+   }
+   button {
+      background-color: #AA9AD7;
+      color: white;
+      border: none;
+      padding: 10px;
+      cursor: pointer;
+      font-size: 18px;
+      border-radius: 5px;
+   }
+   button:hover {
+      background-color: #AA9AD7; /* Цвет кнопки при наведении */
+   } 
+   .helps { 
+    width: 100%; 
+    height: 96rem; 
+    background-color: #F2EFF8; 
+   } 
+   .ourSpecialists { 
+    width: 100%; 
+    height: 4rem; 
+    font-size: 2rem; 
+    font-weight: 900; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    background-color: #AA9AD7;
+   } 
+   .ourSpecialists1 { 
+    width: 100%; 
+    height: 5rem; 
+    background-color: #DCCFFF;
+    display: grid; 
+    grid-template-rows: 50% 50%; 
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+   } 
+   .Sveta { 
+    width: 70%; 
+   } 
+   .ourSpecialists2 { 
+    width: 100%; 
+    height: 3rem; 
+    font-size: 10px; 
+    font-weight: 900; 
+    display: grid; 
+    grid-template-rows: 50% 50%; 
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+   } 
+   .ourSpecialists3 { 
+    width: 100%; 
+    height: 6rem; 
+    font-size: 10px; 
+    display: grid; 
+    grid-template-rows: 50% 50%; 
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+   } 
+   .ourSpecialists4 { 
+    width: 100%; 
+    height: 5rem; 
+    font-size: 10px; 
+    display: grid; 
+    grid-template-rows: 50% 50%; 
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+   } 
+   .ourSpecialists5{
+      width: 100%; 
+      height: 2rem; 
+      font-size: 10px; 
+      display: grid; 
+      grid-template-rows: 50% 50%; 
+      grid-template-columns: 1fr 1fr 1fr 1fr; 
+     }
+   a{
+      text-decoration: none;
+   }
+   .button { 
+    display: block; 
+    width: 95px; 
+    height: 25px; 
+    background-color: #5322dab2; 
+    color: black; 
+    font-size: 12px; 
+    font-family: "Trebuchet MS"; 
+    text-align: center; 
+    line-height: 40px; 
+    position: relative; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   } 
+   .button::after { 
+    content: ""; 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 20px; 
+    height: 100%; 
+    background-color: rgba(0, 0, 0, 0.2); 
+    transition: all 0.2s; 
+   } 
+   .button:hover::after { 
+    width: 100%; 
+   } 
+   .button span { 
+    z-index: 2; 
+    position: relative; 
+   } 
+   .button:hover span { 
+    color: rgb(139, 139, 139); 
+   } 
+   .name2 { 
+    width: 100%; 
+    height: 5rem; 
+    font-size: 25px; 
+    font-weight: 600; 
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    background-color: #8f70df94;
+   } 
+   .button1 { 
+    width: 250px; 
+    height: 40px; 
+    background-color: #5322dab2 ; 
+    color: black; 
+    font-size: 15px;
+    text-align: center; 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    line-height: 40px; 
+    position: relative; 
+    margin-left: 100px;
+    font-family: "Trebuchet MS"; 
+   } 
+   .button1::after { 
+    content: ""; 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 20px; 
+    height: 100%; 
+    background-color: rgba(0, 0, 0, 0.2); 
+    transition: all 0.2s; 
+   } 
+   .button1:hover::after { 
+    width: 100%; 
+   } 
+   .button1 span { 
+    z-index: 2; 
+    position: relative; 
+   } 
+   .button1:hover span { 
+    color: rgb(139, 139, 139); 
+   } 
+   .name3 { 
+    width: 100%; 
+    height: 5rem; 
+    display: grid; 
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    grid-template-rows: 40%;
+    font-size: 15px; 
+    font-weight: 900; 
+    background-color: #8f70df94;
+   } 
+   .picture{ 
+    width: 3rem; 
+   } 
+   .money { 
+    width: 100%; 
+    height: 4rem; 
+    font-size: 30px; 
+    font-weight: 900; 
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    background-color: #F3F2F7;
+   } 
+   .money1 { 
+      width: 100%; 
+      height: 3rem; 
+      font-size: 2rem; 
+      font-weight: 900; 
+     } 
+     .money2 { 
+      width: 100%;
+      font-size: 25px; 
+     } 
+.money9{ 
+    width: 100%; 
+    height: 35rem; 
+    background-color: #F3F2F7; 
+    overflow-y: scroll; 
+   }
+   .money10{
+    width: 100%; 
+    height: 4rem; 
+    font-size: 30px; 
+    font-weight: 900; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    background-color: #9476E8;
+   }
+   .money11{
+    width: 100%; 
+    height: 4rem; 
+    font-size: 2rem; 
+    font-weight: 900; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    background-color: #BEB1E0;
+   }
+   .geolocacia { 
+    width: 100%; 
+    height: 30rem; 
+    display: grid; 
+    grid-template-rows: 20%; 
+    grid-template-columns: 1fr 1fr ; 
+    gap: 2rem;
+   } 
+   .video1 { 
+    height: 15rem; 
+   } 
+   .information { 
+    width: 100%; 
+    height: 10rem; 
+    font-size: 1rem; 
+    display: flex; 
+    justify-content: center;
+    flex-direction: column; 
+    align-items: center;
+    background-color: #dccfff83;
+   } 
+   .dogovor { 
+    width: 100%; 
+    height: 5rem; 
+    font-size: 2rem; 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #D2CAEA;
+    gap: 10px;
+   } 
+   .adres1 { 
+    width: 100%; 
+    height: 10rem; 
+    font-size: 1rem; 
+    display: flex; 
+    justify-content: center;
+    flex-direction: column; 
+    align-items: center;
+    background-color: #D2CAEA;
+    color: #3B17A1;
+   } 
+   .othava { 
+    width: 100%; 
+    height: 5rem;
+    display: flex;
+    justify-content: center; 
+    background-color: #FFF6F6;
+    font-size: 2rem;
+   } 
+   .salka { 
+    width: 100%; 
+    height: 5rem; 
+    display: flex; 
+    justify-content: end; 
+    gap: 2rem ; 
+    background-color: #F2EFF8;
+   } 
+   .img { 
+    width: 100%; 
+    height: 4rem; 
+   }
+   .img100 {  
+    height: 4rem; 
+   }
+}
